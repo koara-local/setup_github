@@ -1,7 +1,7 @@
 #!/bin/bash -eu
 
-if [ ! -e ~/.ssh/id_rsa_gitlab ]; then
-    ssh-keygen -t rsa -N "" -f ~/.ssh/id_rsa_gitlab
+if [ ! -e ~/.ssh/id_rsa_github ]; then
+    ssh-keygen -t rsa -N "" -f ~/.ssh/id_rsa_github
 fi
 
 if [ ! -e ~/.ssh/config ] || [ $(cat ~/.ssh/config | grep github | wc -l) == 0 ]; then
