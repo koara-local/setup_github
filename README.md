@@ -3,13 +3,13 @@
 ## Usage
 
 ### curl (for Windows)
-```
-curl -L https://raw.githubusercontent.com/koara-local/setup_github/master/setup_github.sh | bash
+```bash
+$ bash <(curl -L https://raw.githubusercontent.com/koara-local/setup_github/master/setup_github.sh)
 ```
 
 ### wget
-```
-wget https://raw.githubusercontent.com/koara-local/setup_github/master/setup_github.sh -O - | bash
+```bash
+$ bash <(wget https://raw.githubusercontent.com/koara-local/setup_github/master/setup_github.sh -O -)
 ```
 
 please, copy SSH public key and add to GitHub
